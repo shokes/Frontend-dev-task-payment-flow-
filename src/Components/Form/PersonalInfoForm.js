@@ -1,10 +1,11 @@
 import React from 'react';
 import Buttons from '../Buttons/Buttons';
 import { Link } from 'react-router-dom';
-
+import { useGlobalContext } from '../../context';
 import { IoIosArrowDown } from 'react-icons/io';
 
 const PersonalInfoForm = () => {
+  const { id, setId } = useGlobalContext();
   return (
     <section>
       <form
@@ -73,7 +74,11 @@ const PersonalInfoForm = () => {
           </div>
         </div>
         <div className='buttons'>
-          <Link to='/billingInfo' className='next-button'>
+          <Link
+            to='/billingInfo'
+            className='next-button'
+            onClick={() => setId(2)}
+          >
             Next
           </Link>
           <div href='' className='cancel-payment'>

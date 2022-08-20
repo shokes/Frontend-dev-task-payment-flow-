@@ -14,7 +14,7 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/billingInfo' element={<BillingInfo />} />
           <Route path='/next2' element={<Payment />} />
-          {/* <Route path='/pay' element={<PaymentComplete />} /> */}
+          <Route path='/confirmPayment' element={<Payment />} />
           <Route path='*' element={<Error />} />
         </Route>
         <Route element={<PaymentLayout />}>

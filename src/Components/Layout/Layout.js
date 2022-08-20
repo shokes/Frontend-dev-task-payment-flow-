@@ -2,9 +2,11 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Navigate, Outlet } from 'react-router-dom';
 import { useState } from 'react';
+import { useGlobalContext } from '../../context';
 
 const Layout = () => {
-  const [id, setId] = useState(1);
+  const { id, setId } = useGlobalContext();
+  console.log(id);
 
   const nav = [
     {
