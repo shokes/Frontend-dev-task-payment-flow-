@@ -1,12 +1,10 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
-import { Navigate, Outlet } from 'react-router-dom';
-import { useState } from 'react';
+import { Outlet } from 'react-router-dom';
 import { useGlobalContext } from '../../context';
 
 const Layout = () => {
   const { id, setId } = useGlobalContext();
-  console.log(id);
+
 
   const nav = [
     {

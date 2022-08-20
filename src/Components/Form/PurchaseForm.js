@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 
 const PurchaseForm = () => {
@@ -11,7 +10,7 @@ const PurchaseForm = () => {
         </div>
         <div className='heading-flex'>
           <h3>Data science and usability</h3>
-          {/* <h3>jfjfkdfjf</h3> */}
+
           <span>50,000.00</span>
         </div>
         <div className='heading-flex'>

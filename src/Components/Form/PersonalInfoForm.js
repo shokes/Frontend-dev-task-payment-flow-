@@ -1,11 +1,9 @@
-import React from 'react';
-import Buttons from '../Buttons/Buttons';
 import { Link } from 'react-router-dom';
 import { useGlobalContext } from '../../context';
 import { IoIosArrowDown } from 'react-icons/io';
 
 const PersonalInfoForm = () => {
-  const { id, setId } = useGlobalContext();
+  const { setId } = useGlobalContext();
   return (
     <section>
       <form
@@ -59,7 +57,7 @@ const PersonalInfoForm = () => {
             <label htmlFor='state' className='label'>
               State
             </label>
-            {/* <input type='text' className='input-1' placeholder='Address 2' /> */}
+
             <div className='select-wrapper'>
               <select id='select' name='select' className='input-1'>
                 <option value='lagos'>Lagos</option>

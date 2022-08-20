@@ -27,14 +27,3 @@ function App() {
 }
 
 export default App;
-
-{
-  /* <Routes>
-        <Route element={<PaymentLayout />}>
-          <Route path='/pay' element={<PaymentComplete />} />
-        </Route>
-      </Routes> */
-}
-<Route element={<PaymentLayout />}>
-  <Route path='/' element={<PaymentComplete />} />
-</Route>;

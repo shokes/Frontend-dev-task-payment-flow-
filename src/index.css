@@ -10,12 +10,10 @@
 }
 
 body {
-  /* background-color: #cccccc; */
   background-image: url('./Images/background.png');
-  /* /* background-repeat: no-repeat; */
-  background-repeat: no-repeat;
 
-  /* font-family: 'Product Sans'; */
+  background-repeat: no-repeat;
+  font-family: 'Archivo', sans-serif;
 }
 
 /* header styling */
@@ -33,7 +31,7 @@ body {
 
 .nav-items {
   display: flex;
-  /* justify-content: space-between; */
+
   gap: 4rem;
   align-items: center;
   list-style: none;
@@ -90,13 +88,12 @@ body {
   font-size: 20px;
   line-height: 30px;
   position: relative;
-  /* margin-bottom: 1rem; */
 }
 
 .red-star {
   position: absolute;
   position: absolute;
-  left: 135px;
+  left: 146px;
   font-weight: 700;
   font-size: 20px;
   line-height: 30px;
@@ -108,19 +105,6 @@ body {
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
 }
-
-/* .input-11 {
-  background: #ffffff;
-
-  border: 1px solid #4e598c;
-  border-radius: 10px;
-  height: 64px;
-  margin-bottom: 44px;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 30px;
-  padding: 1.3rem;
-} */
 
 .form-input-local {
   display: flex;
@@ -187,7 +171,6 @@ select {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 2rem;
-  /* align-items: center; */
 }
 .position {
   position: relative;
@@ -210,13 +193,13 @@ select {
 
 .card-details-star {
   position: absolute;
-  left: 112px;
+  left: 120px;
   color: #eb5757;
 }
 
 .expiry-date-star {
   position: absolute;
-  left: 108px;
+  left: 114px;
   color: #eb5757;
 }
 .cvv-star {
@@ -226,7 +209,7 @@ select {
 }
 .card-red-star {
   position: absolute;
-  left: 94px;
+  left: 99px;
   color: #eb5757;
 }
 
@@ -268,13 +251,6 @@ select {
   width: 100%;
   text-align: center;
 }
-
-/* .form-input-card {
-  display: flex;
-  flex-direction: column;
-} */
-
-/* Purchase form styling */
 
 .heading-flex {
   display: flex;

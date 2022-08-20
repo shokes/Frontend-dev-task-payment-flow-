@@ -1,5 +1,3 @@
-import React from 'react';
-import Buttons from '../Buttons/Buttons';
 import { Link } from 'react-router-dom';
 import { IoIosArrowDown } from 'react-icons/io';
 
