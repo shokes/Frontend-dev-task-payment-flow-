@@ -5,6 +5,7 @@ import Layout from './Components/Layout/Layout';
 import Payment from './Pages/Payment';
 import PaymentComplete from './Pages/PaymentComplete';
 import PaymentLayout from './Components/Layout/PaymentLayout';
+import Error from './Pages/Error';
 
 function App() {
   return (
