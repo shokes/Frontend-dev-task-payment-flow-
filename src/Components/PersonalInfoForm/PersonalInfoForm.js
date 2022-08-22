@@ -1,9 +1,11 @@
 import { Link } from 'react-router-dom';
 import { useGlobalContext } from '../../context';
 import { IoIosArrowDown } from 'react-icons/io';
+import './PersonalInfoForm.css';
 
 const PersonalInfoForm = () => {
-  const { setId } = useGlobalContext();
+  const { setId, id } = useGlobalContext();
+
   return (
     <section>
       <form

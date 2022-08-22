@@ -1,10 +1,9 @@
 import { Link } from 'react-router-dom';
 import { Outlet } from 'react-router-dom';
 import { useGlobalContext } from '../../context';
-
-const Layout = () => {
+import './MainLayout.css';
+const MainLayout = () => {
   const { id, setId } = useGlobalContext();
-
 
   const nav = [
     {
@@ -38,9 +37,7 @@ const Layout = () => {
               >
                 <Link
                   to={item.url}
-                  className={`nav-item ${
-                    item.id === id ? 'btn-active' : 'nav-item'
-                  }`}
+                  className={` ${item.id === id ? 'btn-active' : 'nav-item'}`}
                 >
                   {item.title}
                 </Link>
@@ -59,4 +56,4 @@ const Layout = () => {
   );
 };
 
-export default Layout;
+export default MainLayout;

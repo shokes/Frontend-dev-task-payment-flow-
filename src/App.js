@@ -1,17 +1,17 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import BillingInfo from './Pages/BillingInfo';
 import Home from './Pages/Home';
-import Layout from './Components/Layout/Layout';
+import MainLayout from './Components/MainLayout/MainLayout';
 import Payment from './Pages/Payment';
-import PaymentComplete from './Pages/PaymentComplete';
-import PaymentLayout from './Components/Layout/PaymentLayout';
+import PaymentSuccess from './Pages/PaymentSuccess';
+import PaymentLayout from './Components/PaymentLayout/PaymentLayout';
 import Error from './Pages/Error';
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route element={<Layout />}>
+        <Route element={<MainLayout />}>
           <Route path='/' element={<Home />} />
           <Route path='/billingInfo' element={<BillingInfo />} />
           <Route path='/next2' element={<Payment />} />
@@ -19,7 +19,7 @@ function App() {
           <Route path='*' element={<Error />} />
         </Route>
         <Route element={<PaymentLayout />}>
-          <Route path='/pay' element={<PaymentComplete />} />
+          <Route path='/pay' element={<PaymentSuccess />} />
         </Route>
       </Routes>
     </Router>

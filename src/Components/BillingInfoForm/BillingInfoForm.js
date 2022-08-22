@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { IoIosArrowDown } from 'react-icons/io';
+import './BillingInfoForm.css';
 
 const BillingInfoForm = () => {
   return (

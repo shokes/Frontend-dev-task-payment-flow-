@@ -1,8 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import success from '../Images/success.png';
-import GoToTop from '../GoToTop';
-import { useGlobalContext } from '../context';
+import success from '../../Images/success.png';
+import GoToTop from '../../GoToTop';
+import { useGlobalContext } from '../../context';
+import './PaymentComplete.css';
 
 const PaymentComplete = () => {
   const { setId } = useGlobalContext();

@@ -1,0 +1,37 @@
+.heading {
+  color: #4e598c;
+  /* font-family: 'Product Sans'; */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 50px;
+  margin-bottom: 59px;
+  margin-top: 183px;
+}
+
+.nav-items {
+  display: flex;
+
+  gap: 4rem;
+  align-items: center;
+  list-style: none;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 34px;
+  color: #bdbdbd;
+  margin-bottom: 27px;
+}
+
+.btn-active {
+  color: #f2994a;
+  text-decoration: none;
+}
+
+.nav-item {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 39px;
+  position: relative;
+  color: #bdbdbd;
+  text-decoration: none;
+}

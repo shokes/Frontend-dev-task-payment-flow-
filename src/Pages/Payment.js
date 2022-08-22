@@ -1,5 +1,5 @@
 import React from 'react';
-import PurchaseForm from '../Components/Form/PurchaseForm';
+import PurchaseForm from '../Components/PurchaseForm/PurchaseForm';
 import GoToTop from '../GoToTop';
 
 const Payment = () => {

@@ -1,5 +1,5 @@
 import React from 'react';
-import BillingInfoForm from '../Components/Form/BillingInfoForm';
+import BillingInfoForm from '../Components/BillingInfoForm/BillingInfoForm';
 import GoToTop from '../GoToTop';
 
 const BillingInfo = () => {
