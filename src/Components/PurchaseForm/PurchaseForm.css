@@ -66,3 +66,15 @@
 .purchase-form {
   padding-bottom: 3rem;
 }
+
+@media (max-width: 35em) {
+  .main-heading {
+    padding: 20px 21.2px;
+    font-size: 18px;
+  }
+
+  .heading-flex {
+    padding: 0 21.2px;
+    font-size: 10px;
+  }
+}

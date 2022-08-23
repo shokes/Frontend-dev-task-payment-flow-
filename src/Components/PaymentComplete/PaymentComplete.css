@@ -70,3 +70,22 @@
   border-radius: 10px;
   position: absolute;
 }
+
+@media (max-width: 35em) {
+  .purchase-heading {
+    font-size: 26px;
+  }
+
+  .purchase-para,
+  .return {
+    font-size: 16px;
+  }
+
+  .payment-complete {
+    padding: 5rem 1.5rem;
+  }
+
+  .link-underline {
+    width: 7rem;
+  }
+}

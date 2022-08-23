@@ -4,7 +4,7 @@ import PersonalInfoForm from '../Components/PersonalInfoForm/PersonalInfoForm';
 
 const Home = () => {
   return (
-    <section className='container'>
+    <section>
       <PersonalInfoForm />
       <GoToTop />
     </section>

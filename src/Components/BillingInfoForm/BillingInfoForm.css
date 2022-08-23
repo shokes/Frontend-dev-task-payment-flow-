@@ -120,7 +120,7 @@
   padding-bottom: 2rem;
 }
 
-.main-heading {
+/* .main-heading {
   display: flex;
   border-radius: 16px 10px 0px 0px;
   align-items: center;
@@ -131,7 +131,7 @@
   font-size: 20px;
   line-height: 30px;
   padding: 20px 80.2px;
-}
+} */
 
 .purchase-underline {
   /* width: 100%; */
@@ -151,4 +151,31 @@
 
 .purchase-form {
   padding-bottom: 3rem;
+}
+
+@media (max-width: 35em) {
+  .card-red-star {
+    left: 85px;
+  }
+
+  .card-details-star {
+    left: 102px;
+  }
+
+  .cvv-star {
+    left: 43px;
+  }
+
+  .expiry-date-star {
+    left: 92px;
+  }
+
+  .card {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0;
+  }
+
+  .card-details {
+    grid-column: 1;
+  }
 }

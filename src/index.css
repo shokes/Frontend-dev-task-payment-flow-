@@ -17,20 +17,25 @@ body {
 }
 
 /* media queries */
-@media (max-width: 68em) {
+@media (max-width: 35em) {
   .container {
     max-width: 90%;
     margin-left: auto;
     margin-right: auto;
   }
 
-  html {
-    font-size: 95%;
+  .heading {
+    font-size: 26px;
+    color: red;
   }
-}
 
-@media (max-width: 24em) {
   html {
     font-size: 70%;
   }
 }
+
+/* @media (max-width: 24em) {
+  html {
+    font-size: 70%;
+  }
+} */

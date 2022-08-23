@@ -110,3 +110,35 @@ select {
   margin: 1rem 0;
   color: #817e9e;
 }
+
+@media (max-width: 35em) {
+  .label,
+  .input-1,
+  .email-label,
+  .cancel-payment,
+  .next-button {
+    font-size: 16px;
+  }
+
+  .location {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .input-1 {
+    height: 53px;
+  }
+
+  .email-para {
+    font-size: 9px;
+  }
+
+  .red-star {
+    position: absolute;
+    position: absolute;
+    left: 122px;
+  }
+
+  .location {
+    gap: 0rem;
+  }
+}
