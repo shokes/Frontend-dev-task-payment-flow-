@@ -141,4 +141,7 @@ select {
   .location {
     gap: 0rem;
   }
+  .buttons {
+    justify-content: space-between;
+  }
 }
